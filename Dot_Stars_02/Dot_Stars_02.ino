@@ -1,4 +1,10 @@
-//-----------------------------------------------//
+//--------------------------------------------------------------//
+// Arduino Uno R4 Wifi Board 
+// Adafruit Rotary Encoder (5880) connected to Qwiic connector
+// and Adafruit DotStar White LED Strip (2238) connected to 
+// Pins 4 & 5 and 8 & 9 that provide data and clock
+// Rotary encoder used to choose which LED "program" to run
+//-------------------------------------------------------------//
 #include "ArduinoGraphics.h"
 #include "Arduino_LED_Matrix.h"
 #include "Adafruit_DotStar.h"
@@ -15,7 +21,7 @@
 #define INCREMENTBRIGHTNESS 2
 #define DELAYBRIGHTNESS 50
 
-// seesaw constants
+// Seesaw constants on Rotary Encoder
 #define SS_SWITCH        24
 #define SS_NEOPIX        6
 #define SEESAW_ADDR      0x36  // the default I2C address for the encoder breakout
