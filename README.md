@@ -1,5 +1,11 @@
 # Underglow
 
-![](pics/01.png)
+<p align="center">
+  <img src="pics/01.png">
+</p>
 
-![](pics/02.png)
+---
+
+<p align="center">
+  <img src="pics/02.png">
+</p>
