@@ -1,5 +1,5 @@
 # Underglow
 
-!(../01.jpg)
+!(./pics/01.jpg)
 
-!(../02.jpg)
+!(./pics/02.jpg)
