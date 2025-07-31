@@ -223,8 +223,8 @@ void loop() {
       resetStrip(physicalStripAll1);
       resetStrip(physicalStripAll2);
     break;
-    delay(20);
   }
+  delay(20);
 }
 
 //------------------------------------------------------------------------------------------------//
