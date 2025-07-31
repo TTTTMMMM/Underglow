@@ -167,7 +167,7 @@ void setup() {
     delay(500);
   }
 
-  //------------------------- Initialize seesaw on Wire1 (Qwiic bus) -------------------------//
+  //------------------------- Check version of encoder -------------------------//
   while ((((ss.getVersion()>>16)) & 0xFFFF) != 4991) {
     Serial.println("Encoder version code not equal to 4991.\n"); 
     scrollMatrix("....Encoder version code not equal to 4991....");
