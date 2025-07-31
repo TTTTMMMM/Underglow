@@ -222,7 +222,7 @@ void loop() {
     default:
       resetStrip(physicalStripAll1);
       resetStrip(physicalStripAll2);
-    break;
+      break;
   }
   delay(20);
 }
