@@ -167,13 +167,11 @@ void setup() {
     delay(500);
   }
 
-  int version = (ss.getVersion()>>16) & 0xFFFF;
-  if (version != 4991) {
-    while (1) {
-      Serial.println("Error reading encoder version code.\n"); 
-      scrollMatrix("....Error reading encoder version code....");
+  //------------------------- Initialize seesaw on Wire1 (Qwiic bus) -------------------------//
+  while ((((ss.getVersion()>>16)) & 0xFFFF) != 4991) {
+    Serial.println("Encoder version code not equal to 4991.\n"); 
+    scrollMatrix("....Encoder version code not equal to 4991....");
     delay(500);
-    }
   }
 
   //------------------------- Turn on neopixel on rotary encoder -------------------------//
